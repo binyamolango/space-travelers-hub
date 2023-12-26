@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-.mission-container {
-  display: flex;
-  justify-content: center;
-  flex: 1 1 auto;
-  padding: 1rem;
-  color: #858796;
-  overflow-x: auto;
-}
-
 .table {
   width: 90%;
   padding: 1rem;
@@ -86,7 +77,7 @@
 }
 
 .notmember {
-  padding: 5px;
+  padding: 0.25em;
   background-color: #777474;
   color: white;
   border-radius: 4px;
@@ -99,7 +90,7 @@
 }
 
 .member {
-  padding: 5px;
+  padding: 0.25em;
   background-color: #0c9aad;
   color: white;
   border-radius: 4px;
@@ -112,7 +103,7 @@
 }
 
 .joinMissions {
-  padding: 10px 15px;
+  padding: 0.75em 1em;
   font-size: 15px;
   background: none;
   border-radius: 5px;

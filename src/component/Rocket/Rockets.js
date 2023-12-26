@@ -19,7 +19,7 @@ export default function Rockets() {
   }, [dispatch]);
 
   return (
-    <Container fluid>
+    <Container>
       {loading && <div>loading...</div>}
       {!loading && error && (
         <div>

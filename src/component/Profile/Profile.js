@@ -15,7 +15,7 @@ export default function Profile() {
   const joinedMissions = allMissions.filter((mission) => mission.joined === true);
 
   return (
-    <Container fluid className={style.container}>
+    <Container className={style.container}>
       <div className={style.rocketSection}>
         <h4>My Rockets</h4>
         <ListGroup className={style.rocketList}>
