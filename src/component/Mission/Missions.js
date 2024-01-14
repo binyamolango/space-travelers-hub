@@ -21,7 +21,7 @@ const Missions = () => {
   if (allMissions.length !== 0) {
     return (
       <Container>
-        <section>
+        <section className={style.mission_section}>
           <table className={style.table}>
             <thead>
               <tr className={style.row}>

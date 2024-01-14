@@ -37,7 +37,8 @@
 }
 
 .logoImg {
-  width: 6%;
+  width: 40px;
+  height: 40px;
 }
 
 .title {
@@ -48,4 +49,21 @@
 
 .activelink {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .space {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
 }

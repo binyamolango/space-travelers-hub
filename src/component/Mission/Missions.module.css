@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
+.mission_section {
+  min-width: 1400px;
+}
+
 .table {
   width: 90%;
   padding: 1rem;
